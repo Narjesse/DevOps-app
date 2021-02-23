@@ -28,7 +28,9 @@ pipeline {
     checkout scm
    }
   }
-  stage('Build') {
+  
+  
+ /* stage('Build') {
    parallel {
     stage('Compile') {
      agent {
@@ -290,5 +292,6 @@ pipeline {
     }
    }
   }
- }
+*/
+  }
 }
